@@ -1,0 +1,43 @@
+Algoritmo opcionElegida
+	definir numero Como Entero
+	Escribir "elige la opcion para "
+	Escribir "elige 1 para suma"
+	Escribir "elige 2 para resta"
+	Escribir "elige 3 para multiplicacion"
+	Escribir "elige 4 para dision"
+	Leer numero
+	Segun numero Hacer
+		1:
+			Escribir "--SUMA--"
+			Escribir "Ingresa el valor del primer numero"
+			Leer a
+			Escribir "ingresa el valor del segundo numero"
+			Leer b
+			Escribir "la suma de ambos numeros es: ", a+b
+		2:
+			Escribir "--RESTA--"
+			Escribir "Ingresa el valor del primer numero"
+			Leer a
+			Escribir "ingresa el valor del segundo numero"
+			Leer b
+			Escribir "la resta de ambos numeros es: ", a-b
+		3:
+			Escribir "--MULTIPLICACION--"
+			Escribir "Ingresa el valor del primer numero"
+			Leer a
+			Escribir "ingresa el valor del segundo numero"
+			Leer b
+			Escribir "la multiplicacion de ambos numeros es: ", a*b
+		4:
+			Escribir "--DIVISION--"
+			Escribir "Ingresa el valor del primer numero"
+			Leer a
+			Escribir "ingresa el valor del segundo numero"
+			Leer b
+			Escribir "la division de ambos numeros es: ", a/b
+		De Otro Modo:
+			Escribir "no es una opcion valida"
+			
+	Fin Segun
+	
+FinAlgoritmo
